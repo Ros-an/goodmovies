@@ -4,7 +4,6 @@ body {
 }
 
 .App {
-  text-align: center;
   max-width: 600px;
   margin: auto;
   padding: 0 2rem 2rem 2rem;
@@ -12,8 +11,12 @@ body {
   border-radius: 1rem;
 }
 .App h1 {
+  text-align: center;
   font-size: 2.5rem;
   color: #25164e;
+}
+.App p {
+  text-align: center;
 }
 
 .App h1 span {
@@ -29,10 +32,10 @@ hr {
 button {
   cursor: pointer;
   background-color: rgb(234, 227, 252);
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1rem;
   border: none;
-  margin: 1.5rem 0.3rem;
-  font-size: 1.5rem;
+  margin: 1rem 0.3rem;
+  font-size: 1rem;
 }
 button:hover {
   text-decoration: underline;
@@ -44,9 +47,10 @@ ul li {
   list-style: none;
   padding: 1rem;
   border: 1px solid white;
-  width: 50%;
+  width: 70%;
   margin: 1rem 0rem;
   border-radius: 0.5rem;
+  background-color: rgb(234, 227, 252);
 }
 .movie-name {
   font-size: larger;
